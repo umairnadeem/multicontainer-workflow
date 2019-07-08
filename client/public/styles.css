@@ -4,6 +4,7 @@ body, html {
 
 body {
   margin: 0;
+  background-color: #ECEEEE;
 }
 
 #main {
@@ -20,4 +21,46 @@ tr, td {
   height: 100px;
   width: 100px;
   border: 1px solid black;
+}
+
+#board {
+  min-height: 200px;
+  color: black;
+  border: 1px solid black;
+  margin-left: 25px;
+  flex-basis: 20%;
+}
+
+#header {
+  color: white;
+  height: 30px;
+}
+
+#card {
+  margin: 14px 12px;
+  padding: 0;
+}
+
+#push-left {
+  display: inline;
+  width:10px;
+  height:10px;
+}
+
+#push-right {
+  display: inline;
+  width:10px;
+  height:10px;
+}
+
+#cards {
+  list-style: none;
+}
+@media(min-width: 768px) {
+  .container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+
 }
